@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+.idea
+.idea/.name
+.idea/copyright/
+.idea/encodings.xml
+.idea/node-parallel-benchmark.iml
