@@ -13,5 +13,5 @@ module.exports = {
   usersCount: 2000000,
   postsCount: 4000000,
   commentsCount: 4000000,
-  iterationsCount: 1000,
+  iterationsCount: 10000,
 };

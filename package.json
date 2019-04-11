@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "async": "^2.6.2",
-    "co": "^4.6.0",
-    "config": "^2.0.1",
-    "faker": "^4.1.0",
-    "lodash": "^4.17.11",
-    "mysql-query-promise": "^1.0.1",
-    "mysql2": "^1.6.5",
-    "promise-all-object": "^2.0.1"
+    "async": "2.6.2",
+    "axios": "^0.18.0",
+    "co": "4.6.0",
+    "config": "2.0.1",
+    "faker": "4.1.0",
+    "lodash": "4.17.11",
+    "mysql-query-promise": "1.0.1",
+    "mysql2": "1.6.5",
+    "promise-all-object": "2.0.1"
   }
 }

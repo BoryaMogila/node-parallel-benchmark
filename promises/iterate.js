@@ -1,5 +1,6 @@
 const getRandomUserId = require('../helpers/getRandomId');
 const _ = require('lodash');
+const config = require('config');
 
 const precision = 3;
 let start = process.hrtime();
@@ -17,7 +18,7 @@ module.exports = function iterate(count, arr = [], task) {
   const userId = getRandomUserId();
   start = process.hrtime();
   task(userId).then(() => {
-    arr.push(elapsed_time());
+    if (config.iterationsCount !== count) arr.push(elapsed_time());
     iterate(count -1, arr, task)
   })
 };
